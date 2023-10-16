@@ -10,3 +10,21 @@ In the case of 8% of the ratings analyzed, the rounding up was done to the neare
 For one movie rating, the rounding off was completely bizarre: from a rating of 4 in the HTML of the page to a displayed rating of 5 stars.
 
 In this project, we'll analyze more recent movie ratings data to determine whether there has been any change in Fandango's rating system after Hickey's analysis.
+
+Column	Description
+
+movie	the name of the movie
+year	the release year of the movie
+metascore	the Metacritic rating of the movie (the "metascore" - critic score)
+imdb	the IMDB rating of the movie (user score)
+tmeter	the Rotten Tomatoes rating of the movie (the "tomatometer" - critic score)
+audience	the Rotten Tomatoes rating of the movie (user score)
+fandango	the Fandango rating of the movie (user score)
+n_metascore	the metascore normalized to a 0-5 scale
+n_imdb	the IMDB rating normalized to a 0-5 scale
+n_tmeter	the tomatometer normalized to a 0-5 scale
+n_audience	the Rotten Tomatoes user score normalized to a 0-5 scale
+nr_metascore	the metascore normalized to a 0-5 scale and rounded to the nearest 0.5
+nr_imdb	the IMDB rating normalized to a 0-5 scale and rounded to the nearest 0.5
+nr_tmeter	the tomatometer normalized to a 0-5 scale and rounded to the nearest 0.5
+nr_audience	the Rotten Tomatoes user score normalized to a 0-5 scale and rounded to the nearest 0.5
